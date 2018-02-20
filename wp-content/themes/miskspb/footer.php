@@ -61,6 +61,9 @@
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/work_end.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/work_process.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/popup_img.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/fancybox/lib/jquery.mousewheel.pack.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/fancybox.js"></script>
 	<?php wp_footer(); ?>
 </body>
 </html>

@@ -693,3 +693,6 @@ ul.navigations li a:focus {
   max-width: 94%;
   margin: 1% 0 0 0;
 }
+.slider_img_none {
+  display: none;
+}

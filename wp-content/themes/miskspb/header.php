@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php bloginfo('name') ?></title>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/fancybox/source/jquery.fancybox.css?v=2.1.7">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory') ?>/css/bootstrap.min.css" >
