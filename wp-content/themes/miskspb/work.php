@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="head_name head_name_inverse">
-					<h3>Наши работы</h3>
+					<h3>Наши объекты</h3>
 					<hr>
 				</div>
 			</div>
