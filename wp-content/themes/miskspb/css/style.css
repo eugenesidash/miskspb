@@ -39,6 +39,7 @@ a:focus {
   color: #e04f55;
   text-decoration: none;
   outline: 0;
+  cursor: pointer;
 }
 .head_name h1,
 .head_name h3 {
@@ -139,6 +140,10 @@ a:focus {
 .services .serv .serv_content h4 {
   text-transform: uppercase;
   font-size: 18px;
+  color: #fff;
+}
+.services .serv .serv_content h4:hover {
+  color: #e04f55;
 }
 .services .serv .serv_content p {
   font-size: 16px;
@@ -356,6 +361,12 @@ a:focus {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
+  color: #fff;
+}
+.work_end .object h3:hover,
+.work_process .object h3:hover,
+.requi_block .object h3:hover {
+  color: #e04f55;
 }
 .work_end .object p,
 .work_process .object p,
@@ -408,6 +419,7 @@ a:focus {
 .requi_content h2 {
   font-size: 18px;
   font-weight: 400;
+  margin-top: 0;
 }
 .requi_content p {
   font-size: 16px;
@@ -623,10 +635,11 @@ ul.navigations .menu-item:hover .sub-menu {
   opacity: 1;
   top: 40px;
   background-color: #fff;
+  width: auto;
 }
 ul.navigations .menu-item:hover .sub-menu li {
   border-bottom: 1px solid grey;
-  width: 120%;
+  width: auto;
   background-color: #fff;
 }
 ul.navigations span {
@@ -643,4 +656,40 @@ ul.navigations li a {
 ul.navigations li a:hover,
 ul.navigations li a:focus {
   color: #e04f55;
+}
+.rev_img {
+  width: 220px;
+  margin: 0 auto;
+}
+.image {
+  margin: 20px;
+  float: left;
+  cursor: pointer;
+  max-height: 250px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.popup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+.popup_bg {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.popup_img {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+  max-height: 94%;
+  max-width: 94%;
+  margin: 1% 0 0 0;
 }

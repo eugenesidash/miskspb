@@ -60,6 +60,7 @@
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/main_slider.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/work_end.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/work_process.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/popup_img.js"></script>
 	<?php wp_footer(); ?>
 </body>
 </html>

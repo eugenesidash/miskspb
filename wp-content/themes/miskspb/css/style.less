@@ -42,6 +42,7 @@ a:hover, a:focus {
 	color: #e04f55;
 	text-decoration: none;
 	outline: 0;
+	cursor: pointer;
 }
 .head_name {
 	& h1, & h3 {
@@ -144,6 +145,10 @@ a:hover, a:focus {
 			& h4 {
 				text-transform: uppercase;
 				font-size: 18px;
+				color: #fff;
+			}
+			& h4:hover {
+				color: #e04f55;
 			}
 			& p {
 				font-size: 16px;
@@ -367,6 +372,10 @@ a:hover, a:focus {
 			text-transform: uppercase;
 			text-align: center;
 			font-size: 24px;
+			color: #fff;
+		}
+		& h3:hover {
+			color: #e04f55;
 		}
 		& p {
 			font-weight: 200;
@@ -420,6 +429,7 @@ a:hover, a:focus {
 	& h2 {
 		font-size: 18px;
 		font-weight: 400;
+		margin-top: 0;
 	}
 	& p {
 		font-size: 16px;
@@ -629,11 +639,12 @@ ul.navigations {
 	& .menu-item:hover .sub-menu {
 		opacity: 1;
 		top: 40px;
-		background-color: #fff;;
+		background-color: #fff;
+		width: auto;
 	}
 	& .menu-item:hover .sub-menu li {
 		border-bottom: 1px solid grey;
-		width: 120%;
+		width: auto;
 		background-color: #fff;
 	}
 	& span {
@@ -650,4 +661,40 @@ ul.navigations {
 			color: #e04f55;
 		}
 	}
+}
+.rev_img {
+	width: 220px;
+	margin: 0 auto;
+}
+.image {
+	margin: 20px;
+	float: left;
+	cursor: pointer;
+	max-height: 250px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.popup {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+.popup_bg {
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+.popup_img {
+	position: relative;
+	margin: 0 auto;
+	z-index:2;
+	max-height: 94%;
+	max-width: 94%;
+	margin: 1% 0 0 0;
 }
