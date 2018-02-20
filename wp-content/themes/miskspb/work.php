@@ -105,7 +105,7 @@
 						<a href="/obektyi-v-rabote/"><h3>Объекты в работе</h3></a>
 						<hr>
 						<p>Демонтаж зданий</p>
-						<p class="bot_for_slide">Республика Коми, п. Ношуль</p>
+						<p class="bot_for_slide">Республика Коми, п. Ношуль </p>
 					</div>
 				</div>
 			</div>
