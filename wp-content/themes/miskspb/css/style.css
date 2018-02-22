@@ -278,7 +278,7 @@ a:focus {
 .rg_bl {
   position: absolute;
   z-index: 1;
-  margin-top: 15px;
+  margin-top: 5px;
   right: 110px;
   width: 370px;
 }
